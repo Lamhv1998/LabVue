@@ -2,16 +2,22 @@
   <div class="container md-5 h-25 w-50">
     <h3 class="text-center mt-5">Bảng thành phần dinh dưỡng</h3>
     <table class="table table-bordered table-hover">
-      <thead class="table-warning">
+      <thead>
         <tr>
-          <th colspan="4" rowspan="2" class="align-middle text-center">
+          <th
+            colspan="4"
+            rowspan="2"
+            class="align-middle text-center bg-warning"
+          >
             Thành phần
           </th>
-          <th colspan="2" class="align-middle text-center">Giá trị</th>
+          <th colspan="2" class="align-middle text-center bg-warning">
+            Giá trị
+          </th>
         </tr>
         <tr>
-          <th>Khối lượng</th>
-          <th>%DV*</th>
+          <th class="bg-warning">Khối lượng</th>
+          <th class="bg-warning">%DV*</th>
         </tr>
       </thead>
       <tbody>
