@@ -5,7 +5,7 @@
     <ul class="nav nav-tabs">
       <li class="nav-item">
         <a
-          class="nav-link"
+          class="nav-link-active"
           aria-current="page"
           href="#"
           @click="handleChangeButton('signup')"
